@@ -48,20 +48,28 @@ BioMark addresses this problem by integrating **Android Biometric Authentication
 
 ## 📸 Screenshots
 
-> Screenshots are stored in the `Screenshots/` directory.
-
-```md
-![Welcome Screen](Screenshots/Welcome Screen.PNG)
+### Welcome & Intro
+![Welcome Screen](Screenshots/Welcome%20Screen.PNG)
 ![Intro Screen](Screenshots/Intro1.PNG)
-![Login Page](Screenshots/Login page.PNG)
-![Sign-up Page](Screenshots/Sign-up page.PNG)
-![Terms and Conditions](Screenshots/Terms and conditions.PNG)
-![Terms and Conditions 2](Screenshots/Terms and conditions2.PNG)
-![Camera Permission](Screenshots/Camera permission.PNG)
-![Location Permission](Screenshots/Location permission.PNG)
-![Student Panel](Screenshots/Student panel.PNG)
-![Admin Page](Screenshots/Admin page.PNG)
-![Admin Dashboard](Screenshots/Admin Dashboard.PNG)
-![Attendance Options](Screenshots/Attendance options.PNG)
-![Edit Profile](Screenshots/Edit profile.PNG)
-![Firebase Console](Screenshots/Firebase console.PNG)
+
+### Authentication
+![Login Page](Screenshots/Login%20page.PNG)
+![Sign-up Page](Screenshots/Sign-up%20page.PNG)
+![Terms and Conditions](Screenshots/Terms%20and%20conditions.PNG)
+![Terms and Conditions 2](Screenshots/Terms%20and%20conditions2.PNG)
+
+### Permissions
+![Camera Permission](Screenshots/Camera%20permission.PNG)
+![Location Permission](Screenshots/Location%20permission.PNG)
+
+### Panels & Dashboard
+![Student Panel](Screenshots/Student%20panel.PNG)
+![Admin Page](Screenshots/Admin%20page.PNG)
+![Admin Dashboard](Screenshots/Admin%20Dashboard.PNG)
+
+### Attendance & Profile
+![Attendance Options](Screenshots/Attendance%20options.PNG)
+![Edit Profile](Screenshots/Edit%20profile.PNG)
+
+### Backend
+![Firebase Console](Screenshots/Firebase%20console.PNG)
