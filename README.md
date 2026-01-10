@@ -73,3 +73,67 @@ BioMark addresses this problem by integrating **Android Biometric Authentication
 
 ### Backend
 ![Firebase Console](Screenshots/Firebase%20console.PNG)
+
+
+## 📥 Installation
+
+### 1️⃣ Clone the Repository
+
+git clone https://github.com/akshatcore/Biomark.git
+
+### 2️⃣ Open the Project
+
+Open Android Studio
+
+Click File → Open
+
+Select the cloned Biomark folder
+
+### 3️⃣ Sync Gradle
+
+Allow Android Studio to download all required dependencies
+
+### 4️⃣ Firebase Setup
+
+Create a project in Firebase Console
+
+Enable Firebase Authentication
+
+Enable Realtime Database or Firestore
+
+Download google-services.json
+
+Place it inside the app/ directory
+
+### 5️⃣ Run the App
+
+Connect a physical Android device or start an emulator
+
+Click ▶ Run
+
+## 📌 Usage
+
+Launch the application
+
+Login or sign up using email & password
+
+Authenticate using the biometric prompt
+
+Access Student or Admin panel
+
+Mark and manage attendance securely
+
+## 🚀 Future Enhancements
+
+Role-based access control (Admin / Student)
+
+Attendance analytics and reporting
+
+Encrypted offline data storage
+
+Admin web dashboard
+
+## ⚠️ Disclaimer
+
+This project is intended for educational and demonstration purposes.
+Additional security layers and access controls are recommended for production use.
