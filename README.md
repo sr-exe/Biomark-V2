@@ -1,81 +1,49 @@
-🔐 BioMark — Biometric Attendance & Secure Authentication App
+# 🔐 BioMark
 
-BioMark is a modern Android application designed to demonstrate secure biometric authentication combined with a cloud-based attendance management system. The project focuses on real-world security practices by integrating device-level biometrics with Firebase-backed user authentication and data storage.
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/akshatcore/Biomark)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/akshatcore/Biomark)
+![License](https://img.shields.io/github/license/akshatcore/Biomark)
 
-🚀 Features
+> BioMark is a secure Android app that combines biometric authentication with cloud-backed attendance tracking using Firebase.
 
-🔑 Biometric Authentication
+---
 
-Fingerprint / device biometric login
+## 🚀 About The Project
 
-Prevents unauthorized access and proxy attendance
+BioMark solves problems in traditional attendance systems by ensuring that only authenticated users can sign in and mark attendance.  
+It leverages **Android Biometric API** and **Firebase Authentication** to provide layered security, real-time data sync, and a clean user experience.
 
-🔐 Firebase Authentication
+---
 
-Secure email & password login
+## 🧠 Tech Stack
 
-Reliable session management
+| Technology | Purpose |
+|------------|---------|
+| Java | Android app logic |
+| Android Biometric API | Fingerprint/Face authentication |
+| Firebase Auth | User authentication backend |
+| Firebase Realtime DB / Firestore | Attendance storage |
+| Android Studio | Development IDE |
 
-☁️ Cloud Attendance System
+---
 
-Real-time attendance storage
+## 📦 Features
 
-User-specific attendance records
+- 🔐 Biometric login (Fingerprint / Supported biometrics)
+- 💻 Email & password authentication (Firebase)
+- ☁️ Real-time attendance tracking (Firebase)
+- 📊 User dashboard
+- 🔄 Clean app navigation flow
 
-🎨 Clean UI Flow
+---
 
-Splash Screen → Login → Dashboard
+## 📱 Screenshots
 
-Smooth navigation and responsive UI
+> Add your actual screenshots in `/screenshots` directory
 
-🛡 Security-First Design
-
-Dual-layer authentication (Biometric + Firebase)
-
-No hardcoded credentials
-
-🛠 Tech Stack
-
-Language: Java
-
-Platform: Android
-
-Authentication: Firebase Authentication + Android Biometric API
-
-Database: Firebase Realtime Database / Firestore
-
-Tools: Android Studio, Gradle
-
-📱 App Flow
-
-Splash Screen
-
-User Login / Biometric Authentication
-
-Dashboard
-
-Attendance Management
-
-🎯 Use Cases
-
-College / University Attendance Systems
-
-Employee Check-In Applications
-
-Identity Verification & Access Control
-
-Android Security Learning Projects
-
-📌 Project Highlights
-
-Real-world biometric implementation
-
-Cloud-integrated backend
-
-Clean and maintainable codebase
-
-Scalable and extensible architecture
-
-⚠️ Disclaimer
-
-This project is intended for educational and learning purposes. Additional security layers and administrative controls may be required for production deployment.
+```md
+![Splash Screen](screenshots/splash.png)
+![Login Screen](screenshots/login.png)
+![Biometric Prompt](screenshots/biometric.png)
+![Dashboard](screenshots/dashboard.png)
+![Attendance List](screenshots/attendance.png)
