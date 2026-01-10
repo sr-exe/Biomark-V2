@@ -1,49 +1,67 @@
 # 🔐 BioMark
+### Biometric Attendance & Secure Authentication Android App
 
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/akshatcore/Biomark)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/akshatcore/Biomark)
-![License](https://img.shields.io/github/license/akshatcore/Biomark)
-
-> BioMark is a secure Android app that combines biometric authentication with cloud-backed attendance tracking using Firebase.
+BioMark is a modern Android application built to provide **secure biometric authentication** and a **cloud-based attendance management system**.  
+The project demonstrates real-world Android development practices with a strong focus on **security**, **Firebase integration**, and **clean UI flow**.
 
 ---
 
-## 🚀 About The Project
+## 📌 Overview
 
-BioMark solves problems in traditional attendance systems by ensuring that only authenticated users can sign in and mark attendance.  
-It leverages **Android Biometric API** and **Firebase Authentication** to provide layered security, real-time data sync, and a clean user experience.
-
----
-
-## 🧠 Tech Stack
-
-| Technology | Purpose |
-|------------|---------|
-| Java | Android app logic |
-| Android Biometric API | Fingerprint/Face authentication |
-| Firebase Auth | User authentication backend |
-| Firebase Realtime DB / Firestore | Attendance storage |
-| Android Studio | Development IDE |
+Traditional attendance systems suffer from proxy attendance and weak authentication.  
+BioMark addresses this problem by integrating **Android Biometric Authentication** with **Firebase Authentication**, ensuring that only verified users can log in and mark attendance. All attendance data is securely stored and synchronized in real time using Firebase.
 
 ---
 
-## 📦 Features
+## ✨ Features
 
-- 🔐 Biometric login (Fingerprint / Supported biometrics)
-- 💻 Email & password authentication (Firebase)
-- ☁️ Real-time attendance tracking (Firebase)
-- 📊 User dashboard
-- 🔄 Clean app navigation flow
+- 🔑 Biometric authentication (Fingerprint / Device biometrics)
+- 🔐 Firebase email & password authentication
+- ☁️ Cloud-based attendance storage
+- 📊 Admin & student panels
+- 📍 Location & camera permission handling
+- 🎨 Clean and structured UI flow
+- 🛡 Security-first implementation
 
 ---
 
-## 📱 Screenshots
+## 🛠 Tech Stack
 
-> Add your actual screenshots in `/screenshots` directory
+- **Language:** Java  
+- **Platform:** Android  
+- **Authentication:** Firebase Authentication + Android Biometric API  
+- **Database:** Firebase Realtime Database / Firestore  
+- **IDE:** Android Studio  
+- **Build Tool:** Gradle  
+
+---
+
+## 📱 Application Flow
+
+1. Intro / Welcome Screens  
+2. Login / Sign-up  
+3. Biometric Authentication  
+4. Student / Admin Dashboard  
+5. Attendance Management  
+
+---
+
+## 📸 Screenshots
+
+> Screenshots are stored in the `Screenshots/` directory.
 
 ```md
-![Splash Screen](screenshots/splash.png)
-![Login Screen](screenshots/login.png)
-![Biometric Prompt](screenshots/biometric.png)
-![Dashboard](screenshots/dashboard.png)
-![Attendance List](screenshots/attendance.png)
+![Welcome Screen](Screenshots/Welcome Screen.PNG)
+![Intro Screen](Screenshots/Intro1.PNG)
+![Login Page](Screenshots/Login page.PNG)
+![Sign-up Page](Screenshots/Sign-up page.PNG)
+![Terms and Conditions](Screenshots/Terms and conditions.PNG)
+![Terms and Conditions 2](Screenshots/Terms and conditions2.PNG)
+![Camera Permission](Screenshots/Camera permission.PNG)
+![Location Permission](Screenshots/Location permission.PNG)
+![Student Panel](Screenshots/Student panel.PNG)
+![Admin Page](Screenshots/Admin page.PNG)
+![Admin Dashboard](Screenshots/Admin Dashboard.PNG)
+![Attendance Options](Screenshots/Attendance options.PNG)
+![Edit Profile](Screenshots/Edit profile.PNG)
+![Firebase Console](Screenshots/Firebase console.PNG)
