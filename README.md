@@ -137,3 +137,12 @@ Admin web dashboard
 
 This project is intended for educational and demonstration purposes.
 Additional security layers and access controls are recommended for production use.
+
+
+<p align="center">
+  SHUBHAM 
+</p>
+
+-----------------------------------------------------------------------------------------------------------
+
+© 2026 Shubham Rathod. All rights reserved.
